@@ -40,6 +40,7 @@ public class LeftRotateByDPlaces {
 
 // static void leftRotate(int arr[], int d, int n)
 // {
+//     d = d % n;  //ensuring d not > n
 //     reverse(arr, 0, d - 1);            //for reversing elemtes till d index
 
 //     reverse(arr, d, n - 1);             // reverse from d till end
