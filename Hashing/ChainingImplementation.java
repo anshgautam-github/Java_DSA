@@ -1,5 +1,6 @@
 // Java program to demonstrate implementation of our 
 // own hash table with chaining for collision detection 
+//add search , insert and delete opertions
 import java.util.*; 
 
 class MyHash
