@@ -37,3 +37,10 @@ class GFG {
 	    }
 	}
 }
+
+// In the version with the boolean variable, the algorithm terminates early if no swaps occur during a pass, indicating that the array is already sorted.
+
+// In the version without the boolean variable, the algorithm always completes all passes specified by the outer loop, regardless of whether the array
+// is already sorted or not. It doesn't have a mechanism to terminate early based on whether swaps occurred during a pass.
+
+
