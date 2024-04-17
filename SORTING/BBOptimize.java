@@ -39,6 +39,10 @@ class GFG {
 }
 
 // In the version with the boolean variable, the algorithm terminates early if no swaps occur during a pass, indicating that the array is already sorted.
+//For EG->>> for i=0, all the j cases will happen from 0 to n-i-1 , if in thal all cases swapping won't happen -> swapped=false, then we don't
+//need to compare for i other values , it will be automaically sorted, hence we get swapped =false, for i=0, 
+//when i becomes 1, before entering j loop it will check for the condition, hence , we get swapp=false, so it will terminate
+//and all unnecessay calls will be saved .
 
 // In the version without the boolean variable, the algorithm always completes all passes specified by the outer loop, regardless of whether the array
 // is already sorted or not. It doesn't have a mechanism to terminate early based on whether swaps occurred during a pass.
