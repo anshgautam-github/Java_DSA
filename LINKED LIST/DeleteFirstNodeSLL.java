@@ -11,7 +11,7 @@ class Node{
         }
     }
   
-class Test { 
+class DeleteFirstNodeSLL { 
     
     public static void main(String args[]) 
     { 
