@@ -1,4 +1,3 @@
-//Initial Template for Java
 
 import java.util.*;
 import java.io.*;
