@@ -1,3 +1,5 @@
+import java.util.*;
+
 public class LargestInArray {
     
     static int getLargest(int arr[]){
@@ -5,15 +7,19 @@ public class LargestInArray {
         //assume a 0 or smallest no to be largest and compare it with all the elements
         // if u find greater than it then just swap it
 
-        int res=0;
+        int largest=Integer.MIN_VALUE;
+        int smallest=Integer.MAX_VALUE;
 
         for(int i=0; i<arr.length-1; i++){
-            if(arr[i]>res){
-                res=arr[i];
+            if(arr[i]>largest){
+                largest=arr[i];
+            }
+            if(arr[i]<smallest){
+                smallest=arr[i];
             }
         } 
-
-        return res;
+        System.out.println("Smallest is "+smallest);
+        return largest;
     }
     
     
