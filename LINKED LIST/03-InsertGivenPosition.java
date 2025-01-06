@@ -12,7 +12,7 @@ class Node {
     }
 }
 
-public class Main {
+public class InsertGivenPosition {
 
    
     public Node insertAtIndex(Node head, int x, int index) {
@@ -48,7 +48,7 @@ public class Main {
     }
 
     public static void main(String args[]) {
-        Main list = new Main();
+        InsertGivenPosition list = new InsertGivenPosition();
         Node head = new Node(2);  
         head = list.insertAtIndex(head, 10, 1);  
         head = list.insertAtIndex(head, 20, 2);  
