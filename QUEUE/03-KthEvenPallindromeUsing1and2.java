@@ -1,6 +1,6 @@
 import java.util.*;
 
-class Main {
+class KthEvenPallindromeUsing1and2 {
 
     public static int generate(int k) {
         Queue<String> q = new LinkedList<>();
