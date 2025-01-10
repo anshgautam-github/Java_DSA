@@ -1,7 +1,7 @@
 
 import java.util.*;
 
-public class DFSExample {
+public class DFS {
 
     public static void dfs(List<List<Integer>> graph, boolean[] visited, int src) {
         List<Integer> neighbors = graph.get(src); 
