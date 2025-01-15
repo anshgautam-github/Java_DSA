@@ -1,32 +1,3 @@
-
-import java.util.*;
-import java.io.*;
-import java.lang.*;
-
-class GFG
-{
-    public static void main(String args[])throws IOException
-    {
-        BufferedReader read = new BufferedReader(new InputStreamReader(System.in));
-        int t = Integer.parseInt(read.readLine());
-        
-        while(t-- > 0)
-        {
-            String str[] = read.readLine().trim().split(" ");
-            int a = Integer.parseInt(str[0]);
-            int b = Integer.parseInt(str[1]);
-            
-            System.out.println(new Solution().GCD(a, b));
-        }
-    }
-}
-
-
-// } Driver Code Ends
-
-
-//User function Template for Java
-
 // GCD stands for Greatest Common Divisor. It is the largest positive integer that divides
 // both numbers without leaving a remainder. In other words, it is the largest integer that 
 // divides both numbers evenly.
@@ -38,7 +9,7 @@ class GFG
 // This process is repeated until the remainder becomes 0.
 
 
-class Solution
+class GCDEuclid
 {
     // Complete the function
     // a: first number
