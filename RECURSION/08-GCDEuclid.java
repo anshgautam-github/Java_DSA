@@ -8,6 +8,8 @@
 // b and the remainder of a divided by b. 
 // This process is repeated until the remainder becomes 0.
 
+//gcd(a,b)=gcd(b,a%b)
+
 
 class GCDEuclid
 {
