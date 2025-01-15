@@ -1,8 +1,8 @@
 public class Print1toN {
 
     public static void printNumbers(int n) {
-        if (n == 1) {
-            return 1;
+        if (n == 0) {
+            return;
         }
         printNumbers(n-1);
         System.out.print(n);
