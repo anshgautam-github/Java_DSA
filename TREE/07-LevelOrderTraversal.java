@@ -14,7 +14,7 @@ class Node
 }
 
 
-class BreadthFirst { 
+class LevelOrderTraversal { 
     
     public static void main(String args[]) 
     { 
