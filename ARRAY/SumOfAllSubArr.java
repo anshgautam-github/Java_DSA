@@ -39,3 +39,26 @@ public class SubarraySumWithPrefixSum {
 
 
 //OPTIMIZED ->> O(n)
+
+public class SubarraySumWithContribution {
+
+    // using the contribution technique
+    public static int sumOfAllSubarraySums(int[] arr) {
+        int n = arr.length;
+        int totalSum = 0;
+        for (int i = 0; i < n; i++) {
+            int contributionCount = (i + 1) * (n - i);
+            totalSum += arr[i] * contributionCount;
+        }
+
+        return totalSum;
+    }
+
+    public static void main(String[] args) {
+    
+        int[] arr = {1, 2, 3, 4};
+        int result = sumOfAllSubarraySums(arr);
+        System.out.println("Sum of all subarray sums: " + result);
+    }
+}
+
